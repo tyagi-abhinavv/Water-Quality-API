@@ -1,0 +1,7 @@
+{
+  "ph": 7,
+  "Hardness": 196.37,
+  "Solids": 22014.1,
+  "Conductivity": 7.13,
+  "Turbidity": 334
+}

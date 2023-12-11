@@ -1,0 +1,41 @@
+                                    Model     MAE      MSE    RMSE       R2  \
+br                         Bayesian Ridge  1.2398   2.5205  1.5865  -0.0011   
+omp           Orthogonal Matching Pursuit  1.2402   2.5205  1.5866  -0.0012   
+en                            Elastic Net  1.2398   2.5215  1.5868  -0.0014   
+lasso                    Lasso Regression  1.2401   2.5222  1.5871  -0.0017   
+lr                      Linear Regression  1.2397   2.5232  1.5873  -0.0020   
+ridge                    Ridge Regression  1.2397   2.5232  1.5873  -0.0020   
+lar                Least Angle Regression  1.2397   2.5232  1.5873  -0.0020   
+dummy                     Dummy Regressor  1.2420   2.5368  1.5916  -0.0075   
+llar         Lasso Least Angle Regression  1.2420   2.5368  1.5916  -0.0075   
+ada                    AdaBoost Regressor  1.2479   2.5605  1.5990  -0.0170   
+gbr           Gradient Boosting Regressor  1.2623   2.6275  1.6198  -0.0439   
+rf                Random Forest Regressor  1.2991   2.7807  1.6665  -0.1056   
+et                  Extra Trees Regressor  1.3210   2.8577  1.6896  -0.1368   
+lightgbm  Light Gradient Boosting Machine  1.3204   2.8661  1.6922  -0.1401   
+knn                 K Neighbors Regressor  1.3689   3.0834  1.7547  -0.2255   
+xgboost         Extreme Gradient Boosting  1.3810   3.1378  1.7705  -0.2476   
+huber                     Huber Regressor  1.4156   3.2563  1.8032  -0.2959   
+dt                Decision Tree Regressor  1.7893   5.1786  2.2722  -1.0697   
+par          Passive Aggressive Regressor  5.6936  68.7929  6.3793 -25.5607   
+
+           RMSLE    MAPE  TT (Sec)  
+br        0.2112  0.2094     0.056  
+omp       0.2112  0.2095     0.059  
+en        0.2112  0.2094     0.053  
+lasso     0.2113  0.2094     0.056  
+lr        0.2113  0.2093     0.755  
+ridge     0.2113  0.2093     0.056  
+lar       0.2113  0.2093     0.059  
+dummy     0.2119  0.2097     0.089  
+llar      0.2119  0.2097     0.061  
+ada       0.2126  0.2103     0.122  
+gbr       0.2151  0.2130     0.197  
+rf        0.2203  0.2181     0.432  
+et        0.2236  0.2218     0.341  
+lightgbm  0.2232  0.2204     0.246  
+knn       0.2302  0.2280     0.076  
+xgboost   0.2326  0.2292     0.303  
+huber     0.2360  0.2329     0.085  
+dt        0.3001  0.2831     0.073  
+par       0.7599  0.8647     0.068  

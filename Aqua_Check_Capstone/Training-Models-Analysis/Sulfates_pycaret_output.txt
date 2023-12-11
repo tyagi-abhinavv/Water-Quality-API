@@ -1,0 +1,41 @@
+                                    Model     MAE     MSE    RMSE      R2  \
+lr                      Linear Regression  0.7165  1.0059  1.0026  0.0282   
+ridge                    Ridge Regression  0.7165  1.0059  1.0026  0.0282   
+lar                Least Angle Regression  0.7165  1.0059  1.0026  0.0282   
+br                         Bayesian Ridge  0.7138  1.0066  1.0029  0.0276   
+huber                     Huber Regressor  0.7052  1.0094  1.0044  0.0249   
+omp           Orthogonal Matching Pursuit  0.7119  1.0167  1.0079  0.0179   
+ada                    AdaBoost Regressor  0.7252  1.0245  1.0119  0.0097   
+lasso                    Lasso Regression  0.6931  1.0361  1.0176 -0.0009   
+llar         Lasso Least Angle Regression  0.6931  1.0361  1.0176 -0.0009   
+en                            Elastic Net  0.6931  1.0361  1.0176 -0.0009   
+dummy                     Dummy Regressor  0.6931  1.0361  1.0176 -0.0009   
+rf                Random Forest Regressor  0.7610  1.0898  1.0436 -0.0536   
+gbr           Gradient Boosting Regressor  0.7545  1.0998  1.0484 -0.0629   
+et                  Extra Trees Regressor  0.7757  1.1100  1.0533 -0.0728   
+lightgbm  Light Gradient Boosting Machine  0.7978  1.1509  1.0725 -0.1121   
+knn                 K Neighbors Regressor  0.8057  1.1722  1.0823 -0.1325   
+xgboost         Extreme Gradient Boosting  0.8464  1.2863  1.1341 -0.2444   
+dt                Decision Tree Regressor  1.0608  2.0123  1.4180 -0.9469   
+par          Passive Aggressive Regressor  1.1309  2.0610  1.4176 -0.9707   
+
+           RMSLE          MAPE  TT (Sec)  
+lr        0.5024  1.179020e+13    4.7400  
+ridge     0.5025  1.178241e+13    2.0967  
+lar       0.5024  1.179020e+13    0.4467  
+br        0.5084  1.076764e+13    0.4300  
+huber     0.5269  7.934839e+12    0.5333  
+omp       0.5139  9.589657e+12    0.4033  
+ada       0.5043  1.331603e+13    0.5567  
+lasso     0.5832  1.006975e+12    1.7867  
+llar      0.5832  1.006975e+12    0.4400  
+en        0.5832  1.006975e+12    0.4567  
+dummy     0.5832  1.006975e+12    0.5433  
+rf        0.4791  2.086344e+13    0.8767  
+gbr       0.4954  1.797480e+13    0.6000  
+et        0.4789  2.362881e+13    0.7333  
+lightgbm  0.4679  2.652150e+13    0.5700  
+knn       0.4602  2.670310e+13    0.5100  
+xgboost   0.4798  3.389000e+13    1.0367  
+dt        0.5495  5.381237e+13    0.4967  
+par       0.5196  6.220078e+13    0.4467  
